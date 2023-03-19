@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Choose Your PC</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
+  <body>
+    <h1>Choose Your PC</h1>
+    <form onsubmit="event.preventDefault(); getLaptops();">
+      <h2>Processor</h2>
+      <input type="checkbox" name="processor" value="intel"> Intel<br>
+      <input type="checkbox" name="processor" value="amd"> AMD<br>
+      <h2>RAM</h2>
+      <input type="radio" name="ram" value="4gb"> 4GB<br>
+      <input type="radio" name="ram" value="8gb"> 8GB<br>
+      <input type="radio" name="ram" value="16gb"> 16GB<br>
+      <h2>Storage</h2>
+      <input type="radio" name="storage" value="128gb"> 128GB<br>
+      <input type="radio" name="storage" value="256gb"> 256GB<br>
+      <input type="radio" name="storage" value="512gb"> 512GB<br>
+      <h2>Screen Size</h2>
+      <input type="radio" name="screen-size" value="13-inch"> 13 inch<br>
+      <input type="radio" name="screen-size" value="15-inch"> 15 inch<br>
+      <input type="radio" name="screen-size" value="17-inch"> 17 inch<br>
+      <h2>Graphics Card</h2>
+      <input type="checkbox" name="graphics-card" value="nvidia"> NVIDIA<br>
+      <input type="checkbox" name="graphics-card" value="amd"> AMD<br>
+      <br>
+      <input type="submit" value="Find Laptops">
+    </form>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
